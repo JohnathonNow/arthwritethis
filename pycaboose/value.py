@@ -7,7 +7,7 @@ class Value:
     def __init__(self, value, key=None):
         self._db = self._db or Database()
         self._key = key or inspect.currentframe().f_back.f_lineno
-        self._value = _db.read(self._key) or value
+        self._value = self._db.read(self._key) or value
 
     @property
     def value(self):
