@@ -9,7 +9,7 @@ from pycaboose import Value
 
 # What can it do?
 # ==> Update user name, email. View Account Details. 
-# ==> Maintain account details and balance persistently using Pycaboose whilst perform acoount operations like Withdraw and Deposit.
+# ==> Maintain account details and balance persistently using Pycaboose whilst perform account operations like Withdraw and Deposit.
 
 def main():
 
